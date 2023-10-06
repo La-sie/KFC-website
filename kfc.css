@@ -132,18 +132,234 @@ header nav ul li a{
 }
 
 .container .menu-2 .menu-grid:first-child{
-    margin-left: 200px;
+    margin-left: 70px;
+}
+
+.container .menu-2 .menu-grid:last-child{
+    margin-right: 70px;
 }
 
 .container .menu-2 .menu-grid .menu-first-grid{
     margin-left: 50px;
     display: flex;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 25px;
     background-color: var(--white-color);
-    border: red;
-    width: 300px;
+    width: 330px;
     margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(161, 158, 158);
+}
+
+.container .menu-2 .menu-grid .menu-first-grid:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.container .menu-2 .menu-grid .menu-first-grid .menu-first-grid-text{
+    margin-right: 10px;
+}
+
+.container .menu-2 .menu-grid .menu-first-grid .menu-first-grid-text h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.container .menu-2 .menu-grid .menu-first-grid .menu-first-grid-text h6{
+    font-size: 12px;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+.container .menu-2 .menu-grid .menu-first-grid .menu-first-grid-text h4{
+    font-size: 18px;
+    color: var(--hero-color);
+}
+
+.container .menu-2 .menu-grid .menu-first-grid img{
+    height: 200px;
+    width: 200px;
+}
+
+.container .menu-2 .menu-grid .menu-second-grid{
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+    background-color: var(--hero-color);
+    width: 330px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(161, 158, 158);
+}
+
+.container .menu-2 .menu-grid .menu-second-grid:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.container .menu-2 .menu-grid .menu-second-grid .menu-second-grid-text{
+    margin-right: 10px;
+}
+
+.container .menu-2 .menu-grid .menu-second-grid .menu-second-grid-text h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.container .menu-2 .menu-grid .menu-second-grid .menu-second-grid-text h6{
+    font-size: 12px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.container .menu-2 .menu-grid .menu-second-grid .menu-second-grid-text h4{
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+.container .menu-2 .menu-grid .menu-second-grid img{
+    height: 200px;
+    width: 200px;
+}
+
+.container .menu-2 .menu-grid .menu-third-grid{
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+    background-color: var(--white-color);
+    width: 330px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(161, 158, 158);
+}
+
+.container .menu-2 .menu-grid .menu-third-grid:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.container .menu-2 .menu-grid .menu-third-grid .menu-third-grid-text{
+    margin-right: 10px;
+}
+
+.container .menu-2 .menu-grid .menu-third-grid .menu-third-grid-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.container .menu-2 .menu-grid .menu-third-grid .menu-third-grid-text h6{
+    font-size: 12px;
+    color: var(--black-color);
+    font-weight: 600;
+}
+
+.container .menu-2 .menu-grid .menu-third-grid .menu-third-grid-text h4{
+    font-size: 18px;
+    color: var(--hero-color);
+}
+
+.container .menu-2 .menu-grid .menu-third-grid img{
+    height: 200px;
+    width: 200px;
+}
+
+.container .menu-2 .menu-grid-2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container .menu-2 .menu-grid-2 .menu-first-row{
+    width: 37%;
+    background-color: var(--white-color);
+    color: black;
+    margin-left: 120px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(161, 158, 158);
+}
+
+.container .menu-2 .menu-grid-2 .menu-first-row:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.container .menu-grid-2 .menu-first-row .menu-first-row-text{
+    margin-right: 160px;
+    margin-left: 15px;
+}
+
+.container .menu-2 .menu-grid-2 .menu-first-row .menu-first-row-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.container .menu-2 .menu-grid-2 .menu-first-row .menu-first-row-text button{
+    padding: 15px;
+    color: var(--white-color);
+    background-color: var(--hero-color);
+    font-size: 13px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+}
+
+.container .menu-2 .menu-grid-2 .menu-first-row img{
+    height: 200px;
+    width: 200px;
+}
+
+.container .menu-2 .menu-grid-2 .menu-second-row{
+    width: 36%;
+    background-color: var(--white-color);
+    color: black;
+    margin-left: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(161, 158, 158);
+}
+
+.container .menu-2 .menu-grid-2 .menu-second-row:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.container .menu-grid-2 .menu-second-row-text{
+    margin-right: 160px;
+    margin-left: 15px;
+}
+
+.container .menu-2 .menu-grid-2 .menu-second-row .menu-second-row-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.container .menu-2 .menu-grid-2 .menu-second-row .menu-second-row-text button{
+    padding: 15px;
+    color: var(--white-color);
+    background-color: var(--hero-color);
+    font-size: 13px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 15px;
+    width: 150px;
+}
+
+.container .menu-2 .menu-grid-2 .menu-second-row img{
+    height: 200px;
+    width: 200px;
 }
 
 .menu-container{
