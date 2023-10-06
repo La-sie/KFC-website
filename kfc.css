@@ -125,6 +125,27 @@ header nav ul li a{
     height: 100vh;
 }
 
+.container .menu-2 .menu-grid{
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+
+.container .menu-2 .menu-grid:first-child{
+    margin-left: 200px;
+}
+
+.container .menu-2 .menu-grid .menu-first-grid{
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: var(--white-color);
+    border: red;
+    width: 300px;
+    margin-top: 40px;
+}
+
 .menu-container{
    display: flex;
    justify-content: center;
@@ -197,4 +218,3 @@ header nav ul li a{
     height: 110px;
     width: 140px;
 }
-
