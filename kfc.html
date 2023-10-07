@@ -8,6 +8,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+        <!-- Swiper JS CDN-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
         <!-- Material CDN-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
 
@@ -60,48 +63,55 @@
                 </div>
 
                 <div class="menu-container">
-                    <div class="slider-wrapper">
-                        <div class="image-list">
-                            <div class="slider-text">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/boxmeal.png" alt="">
-                                <p>Box Meal</p>
-                            </div>
-                            <div class="slider-text">
+                                <p class="slider-text"> Box Meal</p>
+                              </div>
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/chicken.png" alt="">
-                                <p>Chicken</p>
-                            </div>
-                            <div class="slider-text">
-                                <img src="./CSS/IMAGES & VIDEOS/chickenbucket.png" alt="">
-                                <p>Buckets</p>
-                            </div>
-                            <div class="slider-text">
+                                <p class="slider-text"> Chicken</p>
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./CSS/IMAGES & VIDEOS/chickenbucket.png " alt="">
+                                <p class="slider-text"> Bucket</p>
+                              </div>
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/drink.png" alt="">
-                                <p>Drink</p>
-                            </div>
-                            <div class="slider-text">
+                                <p class="slider-text"> Drinks</p>
+                              </div>
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/kids.png" alt="">
-                                <p>Kids Menu</p>
-                            </div>
-                            <div class="slider-text">
+                                <p class="slider-text"> Kid's Meal</p>
+                              </div>
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/sauces.png" alt="">
-                                <p>Sauces</p>
-                            </div>
-                            <div class="slider-text">
+                                <p class="slider-text"> Sauces</p>
+                              </div>
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/side.png" alt="">
-                                <p>Sides</p>
-                            </div>
-                            <div class="slider-text">
+                                <p class="slider-text"> Side</p>
+                              </div>
+                              <div class="swiper-slide">
                                 <img src="./CSS/IMAGES & VIDEOS/singlemeal.png" alt="">
-                                <p>Single Meal</p>
+                                <p class="slider-text"> Single Meal</p>
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./CSS/IMAGES & VIDEOS/hero2.png" alt="">
+                                <p class="slider-text"> Double Deal</p>
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./CSS/IMAGES & VIDEOS/herofood.png" alt="">
+                                <p class="slider-text"> Family Meal</p>
+                              </div>
+                              
                             </div>
-                        </div>
-                        <div class="slider-scrollbar">
-                            <div class="div scrollbar-track">
-                                <div class="scrollbar-thumb"></div>
-                            </div>
-                        </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                          </div>
                     </div>
-                </div>
             </div>
 
             <div class="menu-2">
@@ -154,14 +164,29 @@
             <div class="mobile">
                 <div class="mobile-container">
                     <div class="mobile-image">
-                        <img src="" alt="">
+                        <img src="./CSS/IMAGES & VIDEOS/boxmeal.png" alt="">
                     </div>
 
                     <div class="mobile-text">
-                        
+                        <h2>
+                            Now With Your Favorite<br>
+                            KFC Mobile Application <br>
+                            In Your Pocket.
+                        </h2>
+                        <button type="submit"> 
+                            <h6> Download on the</h6>
+                            <h4> App Store</h4>
+                        </button>
+                        <button type="submit"> 
+                            <h6> Get it on</h6>
+                            <h4> Google Play</h4>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="./JS/kfc.js"></script>
+
     </body>
 </html>
